@@ -1,3 +1,46 @@
+# 🛡️ Scam Sniffer – AI-Powered Scam Detection App
+
+This project is a mobile-friendly application that detects scam messages using a fine-tuned BERT model and checks for malicious URLs using Google's Safe Browsing API.
+
+Built with:
+
+- ⚙️ FastAPI (Python backend)
+- 🤖 HuggingFace Transformers (DistilBERT)
+- 🌐 Google Safe Browsing API
+- 📱 React Native (Expo)
+- 🧠 Machine Learning (scam classification)
+
+---
+
+## 📦 Features
+
+- 🧠 AI-powered scam detection using NLP
+- 🌐 URL extraction and phishing/malware checks via Google API
+- 🔐 Secure and extensible FastAPI backend
+- 📲 Mobile frontend built in React Native with Expo
+- 🔍 Real-time response with confidence score + flagged URLs
+
+---
+
+## 🧱 Project Structure
+
+```txt
+scam-sniffer-backend/
+├── server/
+│   ├── main.py              # FastAPI routes
+│   ├── predict.py           # Loads ML model and predicts scam
+│   └── safebrowsing.py      # Checks URLs with Google API
+├── model/
+│   └── scambert/            # Trained HuggingFace model
+├── .env                     # Google Safe Browsing API key
+├── requirements.txt
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
